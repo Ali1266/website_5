@@ -1,0 +1,370 @@
+@font-face {
+    font-family: Post No Bills Jaffna;
+    src: url('../fonts/Post\ No\ Bills\ Jaffna/PostNoBillsJaffna-Regular.ttf');
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf');
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #242B33;
+    color: #fff;
+    font-family: Raleway;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo span:first-of-type {
+    font-family: Post No Bills Jaffna;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.logo span:last-of-type {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+}
+
+.menu a {
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+.menu a:last-of-type {
+    margin-right: 0;
+}
+
+.block1 {
+    background-image: url('../image/fon.png');
+    width: 100%;
+    height: 840px;
+}
+
+.block1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header span:nth-child(1) {
+    font-size: 48px;
+    font-weight: bold;
+    color: #D4C17F;
+    font-family: PlayfairDisplay;
+    padding-bottom: 100px;
+}
+
+.header_1 {
+    display: flex;
+    padding-top: 185px;
+}
+
+.header_1 img {
+    padding-right: 15px;
+}
+
+.adres {
+    padding-right: 150px;
+}
+
+.adres,
+.namber {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2 {
+    display: flex;
+    margin-top: 120px;
+}
+
+.block2_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 70px;
+}
+
+.block2_1:last-of-type {
+    padding-right: 0;
+}
+
+.block2_1 img {
+    margin-bottom: 50px;
+}
+
+.header-block3 span {
+    font-family: PlayfairDisplay;
+    font-size: 36px;
+    font-weight: bold;
+    color: #D4C17F;
+}
+
+.block3 {
+    margin-top: 120px;
+}
+
+.loft {
+    padding-top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.loft1:nth-child(1) img,
+.loft1:nth-child(2) img {
+    padding-bottom: 30px;
+}
+
+.loft1 span {
+    position: absolute;
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+.loft1:nth-child(1) span,
+.loft1:nth-child(2) span {
+    padding-bottom: 80px;
+}
+
+.loft1:nth-child(3) span,
+.loft1:nth-child(4) span {
+    padding-bottom: 50px;
+}
+
+.loft1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.block4 {
+    background-image: url('../image/Rectangle.png');
+    height: 560px;
+    width: 100%;
+}
+
+.block4_1_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.block4_1_1 span:first-of-type {
+    font-family: PlayfairDisplay;
+    color: #D4C17F;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.block4_1_1 span:last-of-type {
+    width: 535px;
+    line-height: 24px;
+}
+
+.block4_1 {
+    padding: 180px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block4-input input[type = "text"] {
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.2;
+    outline: none;
+    border: 0;
+}
+
+.block4-input input[type = "text"]:last-of-type {
+    margin-left: 30px;
+}
+
+.block4-button a {
+    width: 255px;
+    height: 50px;
+    background-color: #D4C17F;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.block4-button span {
+    font-size: 13px;
+    width: 255px;
+    text-align: center;
+}
+
+.block4-button {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.block4-button,
+.block4-input {
+    display: flex;
+}
+
+.block4_1_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.block5 {
+    background-image: url('../image/Rectangle\ 2\ \(1\).png');
+    width: 720px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block6 {
+    margin: 180px 0;
+}
+
+.block6 span {
+    font-family: PlayfairDisplay;
+    font-size: 36px;
+    color: #D4C17F;
+    font-weight: bold;
+}
+
+.block6 img {
+    margin-top: 100px;
+    height: 360px;
+    width: 100%;
+}
+
+.block7-header span {
+    font-family: PlayfairDisplay;
+    font-size: 36px;
+    color: #D4C17F;
+    font-weight: bold;
+}
+
+.block7_1 input[type = "text"] {
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    opacity: 0.2;
+    border: 0;
+}
+
+.block7_1 span {
+    font-size: 13px;
+    text-align: center;
+}
+
+.block7_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.block7_1 a {
+    width: 255px;
+    height: 50px;
+    background-color: #D4C17F;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block7 {
+    margin-bottom: 190px;
+}
+
+footer {
+    background-color: #2D343C;
+    width: 100%;
+}
+
+.block8 {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text a,
+.footer-text span {
+    margin-bottom: 15px;
+}
+
+.footer-text a:last-of-type {
+    margin-bottom: 0;
+}
+
+.soc {
+    display: flex;
+}
+
+.soc a {
+    margin-right: 20px;
+}
+
+.soc a:last-of-type {
+    margin-right: 0;
+}
