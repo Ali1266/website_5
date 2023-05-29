@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Портфолио</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a href="#home" class="menu__list-link">Главная</a></li>
+                        <li class="menu__list-item"><a href="#summary" class="menu__list-link">Резюме</a></li>
+                        <li class="menu__list-item"><a href="#portfolio" class="menu__list-link">Работы</a></li>
+                        <li class="menu__list-item"><a href="#contacts" class="menu__list-link">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="container">
+                <h1 class="home__title title">Обо мне</h1>
+                <div class="home__inner">
+                    <div class="home-img">
+                        <img src="image/photo.jpg" alt="">
+                    </div>
+                    <div class="home__text">
+                        <p class="home__text-name">Шевчук Анатолий</p>
+                        <p class="home__text-direction">Frontend-разработчик</p>
+                        <p class="home__text-birthday"><span>Дата рождения:</span> 10 апреля 2005 (18 лет)</p>
+                        <p class="home__text-city"><span>Город:</span> Тольятти</p>
+                        <p class="home__text-education"><span>Образование:</span> Среднее специальное</p>
+                        <p class="home__text-target"><span>Цель в IT:</span> Стать - senior frontend-разработчиком</p>
+                        <p class="home__text-skills"><span>Навыки:</span> HTML, CSS, JS, Git</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="summary" id="summary">
+            <div class="container">
+                <div class="summary__inner">
+                    <h1 class="summary__title title">Резюме</h1>
+                    <div class="summary__content">
+                        <div class="summary__skills summary__block">
+                            <h2 class="summary__skills-title summary-title">Профессиональные навыки и знания</h2>
+                            <p>Знание Javascript и ES6+, React + Redux;</p>
+                            <p>Уверенные знания HTML5, CSS3/SASS/LESS, опыт адаптивной и кроссбраузерной верстки;</p>
+                        </div>
+                        <div class="summary__education summary__block">
+                            <h2 class="summary__education-title summary-title">Образование</h2>
+                            <p>Обучение на 2 курсе колледжа ГАПОУ ТСПК</p>
+                        </div>
+                        <div class="summary__languages summary__block">
+                            <h2 class="summary__languages-title summary-title">Языки</h2>
+                            <p>Русский</p>
+                            <p>Английский язык ‒ B1</p>
+                        </div>
+                        <div class="summary__experience summary__block">
+                            <h2 class="summary__experience-title summary-title">Опыт работы</h2>
+                            <p>Заказы на вёрстку сайтов</p>
+                            <p>Опыт работы с git и gitflow;</p>
+                            <p>Опыт работы с React</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="portfolio__inner">
+                    <h1 class="portfolio__title title">Мои работы</h1>
+                    <div class="portfolio__jobs">
+                        <div class="portfolio__job">
+                            <div class="portfolio__job-img">
+                                <img src="image/job-1.jpg" alt="">
+                            </div>
+                            <div class="portfolio__job-content">
+                                <h2 class="portfolio__job-content_title">
+                                    "МИШКА — МАГАЗИН ПОДЕЛОК"
+                                </h2>
+                                <div class="portfolio__job-content_text">
+                                    <p>Трехстраничный макет, адаптивный под мобильный (320px) планшетный (768px) и десктопный (1150px) вьюпорт.</p>
+                                    <p>Использованы адаптивные изображения под разные вьюпорты и под ретиновый экран. Сверстан на flexbox. Меню в мобильной версии интерактивное.</p>
+                                    <p>Вторая страница — пункт меню "Каталог товаров", третья страница — пункт "Вязание на заказ"</p>
+                                    <p>Используемые технологии: HTML, CSS, JS</p>
+                                </div>
+                                <a href="http://h97628y7.beget.tech/" class="portfolio__job-content_link" target="_blank">На сайт</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__job">
+                            <div class="portfolio__job-img">
+                                <img src="image/job-2.jpg" alt="">
+                            </div>
+                            <div class="portfolio__job-content">
+                                <h2 class="portfolio__job-content_title">
+                                    «BARBERSHOP BORODINSKI»
+                                </h2>
+                                <div class="portfolio__job-content_text">
+                                    <p>Четырёхстраничный макет. Фотогалерея-это слайдер, сделан на чистом JS, два модальных окна открываются при нажатии на "Вход" в навигационном меню, и кнопку "Как проехать" в блоке "Контактная информация".</p>
+                                    <p>Вторая страница - пункт меню "Прайс-лист".</p>
+                                    <p>Третья страница - пункт "Магазин", четвертая – карточка товара Набор для путешествий «BAXTER OF CALIFORNIA»</p>
+                                    <p>Используемые технологии: HTML, CSS, JS</p>
+                                </div>
+                                <a href="" class="portfolio__job-content_link">На сайт</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__job">
+                            <div class="portfolio__job-img">
+                                <img src="image/job-3.jpg" alt="">
+                            </div>
+                            <div class="portfolio__job-content">
+                                <h2 class="portfolio__job-content_title">
+                                    "GLLACYSHOP — МАГАЗИН МОРОЖЕНОГО"
+                                </h2>
+                                <div class="portfolio__job-content_text">
+                                    <p>Двустраничный макет фиксированной ширины 1200px.</p>
+                                    <p>Работает слайдер, меняющий цвет страницы и вид мороженого, сверстаный только на CSS.</p>
+                                    <p>На вторую страницу ведет подпункт "Сливочное" пункта меню "Каталог".</p>
+                                    <p>Используемые технологии: HTML, CSS, JS</p>
+                                </div>
+                                <a href="" class="portfolio__job-content_link">На сайт</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <h1 class="contacts__title title">Связаться со мной</h1>
+                    <div class="contacts-links">
+                        <a class="contacts-link" href="#">Вконтакте</a>
+                        <a class="contacts-link" href="tel:+79879161005">Тел: +7 987 916-10-05</a>
+                        <a class="contacts-link" href="#">Телеграм</a>
+                    </div>
+                    <form class="form">
+                        <input required type="text" class="form-input" placeholder="Имя">
+                        <input required type="email" class="form-input" placeholder="E-mail">
+                        <textarea required class="form-textarea" placeholder="Текст сообщения"></textarea>
+                        <button type="submit" class="form-btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span>2023</span> Shevchuk Anatoly | <a href="mailto:shevchuk@gmail.com">shevchuk@gmail.com</a></p>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
